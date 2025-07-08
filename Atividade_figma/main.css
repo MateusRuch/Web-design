@@ -1,0 +1,46 @@
+header{
+    height: 3em;
+    background-image: linear-gradient(to right, #72CFED, #186c86);
+}
+header nav{
+    padding-left: 2em;
+    padding-top: 1em;
+    margin: 0px;
+}
+body{
+    background-color: rgb(245, 245, 243);
+}
+main {
+    margin-top: 3em;
+}
+section{
+    display: flex;
+    gap: 1em;
+    margin: auto;
+    justify-content: center;
+}
+div {
+    background-color: white;
+    padding-left: 1em;
+    box-shadow: 0 0 5px #9d9d9d;
+}
+div h2{
+    font-weight: 100;
+    color: #005C85;
+    padding-right: 2em;
+    
+}
+div p{
+    max-width: 150px;
+    padding-bottom: 3em;
+}
+div img{
+    display: flex;
+    justify-content: left;
+}
+div span{
+    display: flex;
+    justify-content: right;
+    color: #c3c3c3;
+    padding: 10px;
+}
