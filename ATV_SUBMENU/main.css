@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    background-color: brown;
+}
+
+section nav ul{
+    display: flex;
+    
+}
+header section nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 2em;
+}
+
+.submenu {
+    position: relative;
+}
+
+.drop{
+    position: absolute;
+    overflow: hidden;
+    height: 0;
+}
+.submenu:hover .drop{
+    height: 1000px;
+}
+.drop a{
+    background-color:rgb(194, 74, 74) ;
+    color: black;
+}
