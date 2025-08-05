@@ -1,0 +1,108 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: url(imagens/background_image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* adapta a imagem ao tamanho da tela */
+    background-attachment: fixed;
+    background-position: center;
+}
+
+header nav{
+    background-color: white;
+    display: flex;
+    /* deixando a tag de header flexível. */
+    justify-content: space-between;
+    /* espaço entre os itens do nav */
+    padding-bottom: none;
+    box-shadow: 0px 2px 5px 2px rgb(29, 28, 28);
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    margin-right: 7em;
+    
+}
+
+header nav img{
+    height: 120px;
+    margin-left: 5em;
+    margin-top: 9px;
+}
+
+header nav ul li{
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px ;
+    border-right: 1px solid black;
+    margin-bottom: 3em;
+    margin-top: 3em;
+   
+}
+header nav ul li:last-child{
+    border-right: none;
+}
+header nav a{
+    text-decoration: none;
+    color: rgb(0, 83, 0);
+    transition: 0.3s;
+}
+
+header nav a:hover{
+    color: #FE9E3A;
+}
+
+main{
+    background-color: white;
+    margin-top: 40em;
+    padding: 5em 10em;
+    box-shadow: 0px -2px 5px 2px rgb(29, 28, 28);
+}
+.artes img{
+    height: 450px;
+}
+main h1{
+    text-align: center;
+    margin-bottom: 2em;
+    color: #54595F;
+    border-bottom: 1px solid #54595F;
+}
+main p{
+    max-width: 900px;
+    text-align: justify;
+    margin: auto;
+}
+main div img{
+    display: block;
+    margin: auto;
+}
+main div p{
+    text-align: center;
+}
+main section div{
+    display: flex;
+    margin-bottom: 1em;
+}
+main section div .img_2{
+    display: flex;
+}
+main section div p{
+    margin: 1em;
+    margin-top: 15em;
+    max-width: 30em;
+    display: block;
+}
+footer{
+    background-color: #FE9E3A;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: center;
+}
+.contatinho p{
+    margin-top: 2em;
+}
