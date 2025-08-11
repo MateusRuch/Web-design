@@ -97,6 +97,23 @@ main section div p{
     max-width: 30em;
     display: block;
 }
+main form{
+    text-align: center;
+    background-color: #54595F;
+    width:18em ;
+    height: 20em;
+    border-radius: 25px;
+    box-sizing: border-box;
+    align-content: center;
+    margin: 0 auto;
+}
+main form input{
+    margin-bottom: 1em;
+    padding: 10px ;
+}
+main form button{
+    padding: 10px 20px;
+}
 footer{
     background-color: #FE9E3A;
     padding-top: 2em;
@@ -105,4 +122,25 @@ footer{
 }
 .contatinho p{
     margin-top: 2em;
+}
+.duvidas{
+    list-style: none;
+}
+.duvidas .perguntas{
+    padding: 1em ;
+    border: 1px solid black;
+}
+.perguntas span{
+    font-size: 25px;
+    
+}
+.perguntas p{
+    text-align: left;
+}
+.resposta{
+    color: #FE9E3A;
+}
+.perguntas {
+    margin-bottom: 1em;
+    border-radius: 25px;
 }
